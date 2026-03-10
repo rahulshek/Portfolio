@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name - Web Developer building modern responsive web applications." />
+  <meta name="theme-color" content="#4f46e5" />
+  <meta property="og:title" content="Your Name | Portfolio" />
+  <meta property="og:description" content="Frontend developer portfolio with projects, skills, and contact details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Your Name | Portfolio" />
+  <meta name="twitter:description" content="Frontend developer portfolio with projects, skills, and contact details." />
+  <meta name="twitter:image" content="preview.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">YourName<span>.</span></a>
+      <nav id="siteNav" class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#education">Education</a>
+        <a href="#hire">Hire Me</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button id="menuBtn" class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero reveal">
+      <div class="container hero-content">
+        <p class="eyebrow">Hello, I’m</p>
+        <h1>Your Name</h1>
+        <p class="subtitle">
+          A passionate <strong>Web Developer</strong> building fast, responsive, and beautiful web experiences.
+        </p>
+        <div class="hero-chips">
+          <span>⚡ Performance Focused</span>
+          <span>🎨 Creative UI</span>
+          <span>📱 Mobile First</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          <a class="btn btn-ghost" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="container grid-2">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I enjoy turning ideas into polished digital products. I focus on clean code,
+            responsive layouts, and performance-first development.
+          </p>
+          <p>
+            Replace this with your real story, strengths, and what kind of roles you're targeting.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Quick Info</h3>
+          <ul>
+            <li>📍 Location: Your City</li>
+            <li>💼 Role: Frontend / Full Stack Developer</li>
+            <li>🛠 Tech: React, JavaScript, Node.js</li>
+            <li>✉️ Email: youremail@example.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt reveal">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Git & GitHub</span>
+          <span>REST APIs</span>
+          <span>Responsive Design</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">Project Preview</div>
+            <div class="project-line"></div>
+            <h3>Portfolio Website</h3>
+            <p>Problem: Needed a strong personal brand profile. Result: Built a responsive portfolio with modern UI and smooth interactions.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image">Project Preview</div>
+            <div class="project-line"></div>
+            <h3>Task Manager App</h3>
+            <p>Problem: Users missed deadlines. Result: Created task workflow with filters and status tracking for better productivity.</p>
+            <div class="project-tags"><span>React</span><span>API</span><span>UI</span></div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image">Project Preview</div>
+            <div class="project-line"></div>
+            <h3>E-commerce UI</h3>
+            <p>Problem: Complex browsing flow. Result: Designed clean product layout with responsive grid and category filters.</p>
+            <div class="project-tags"><span>Responsive</span><span>Grid</span><span>UX</span></div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section section-alt reveal">
+      <div class="container">
+        <h2>Achievements & Training</h2>
+        <div class="timeline">
+          <article class="timeline-item card">
+            <h3>Web Development Bootcamp</h3>
+            <p class="muted">2026 · Add your institute/platform name</p>
+            <p>Completed hands-on training in HTML, CSS, JavaScript, React, and real project deployment.</p>
+          </article>
+          <article class="timeline-item card">
+            <h3>Hackathon / Coding Challenge</h3>
+            <p class="muted">Add event name and year</p>
+            <p>Built a team project under deadline and presented the solution with live demo.</p>
+          </article>
+          <article class="timeline-item card">
+            <h3>Personal Learning Milestones</h3>
+            <p class="muted">Fresher-ready highlights</p>
+            <p>Include achievements like GitHub streak, open-source contributions, or top course completions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section reveal">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
+          <article class="timeline-item card">
+            <h3>Bachelor’s Degree in Computer Science</h3>
+            <p class="muted">University Name · 2022 – 2026</p>
+            <p>Relevant coursework: DSA, Web Development, Databases, Software Engineering.</p>
+          </article>
+          <article class="timeline-item card">
+            <h3>Certifications</h3>
+            <p class="muted">Add your certified courses here</p>
+            <p>Examples: React, JavaScript, Cloud Fundamentals, UI/UX.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="hire" class="section section-alt reveal">
+      <div class="container">
+        <div class="hire-card">
+          <h2>Available for Internship / Junior Developer Roles</h2>
+          <p>I can help your team build responsive UI, convert designs to code, and contribute to frontend features with clean, maintainable code.</p>
+          <div class="hire-points">
+            <span>✅ Fast learner</span>
+            <span>✅ Team collaboration</span>
+            <span>✅ Clean code mindset</span>
+          </div>
+          <a class="btn btn-primary" href="#contact">Let’s Connect</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt reveal">
+      <div class="container contact-wrap">
+        <h2>Contact</h2>
+        <p>Let’s work together on your next project.</p>
+
+        <form class="contact-form" action="https://formspree.io/f/yourFormId" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-links">
+          <a href="mailto:youremail@example.com">youremail@example.com</a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
